@@ -1,0 +1,19 @@
+nav{
+    background-color: skyblue;
+    padding: 50px;
+ }
+ nav img{
+    width: 70px;
+    position: relative;
+    left: 50%;
+ }
+ 
+ nav ul{
+    float: right;
+    list-style-type: none;
+ }
+ 
+ ul li{
+    display: inline-block;
+    padding: 5px;  
+ }

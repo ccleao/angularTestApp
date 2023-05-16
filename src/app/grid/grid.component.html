@@ -1,0 +1,15 @@
+<html lang="en">
+<body>
+  <main>
+    <nav>
+    <ul>
+      <li><a href="#"><p-button (onClick)="getAllUsers()" icon="pi pi-check">Get All Users</p-button></a></li>
+    </ul>
+  </nav>
+  <ag-grid-angular 
+    style="width: 100%; height: 500px;" 
+    class="ag-theme-alpine.css"
+    [rowData]="rowData" 
+    [columnDefs]="columnDefs">
+  </ag-grid-angular>
+  </main>
